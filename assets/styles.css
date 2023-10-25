@@ -1,0 +1,38 @@
+html{
+    background-color:white
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .col {
+    flex: 1;
+  }
+
+  .container {
+    position: relative;
+}
+
+.image1, .image2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.image1 {
+    width: 100px; /* Defina a largura da imagem aqui */
+    height: 100px; /* Defina a altura da imagem aqui */
+    background-image: url('../assets/ft.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+}
+
+.image2 {
+    width: 100px; /* Defina a largura da imagem aqui */
+    height: 100px; /* Defina a altura da imagem aqui */
+    background-image: url('../assets/unicamp.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    left: 100px; /* Define a distância da primeira imagem */
+}
